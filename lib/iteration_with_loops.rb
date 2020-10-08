@@ -16,12 +16,12 @@ def find_min_in_nested_arrays(src)
       
       
       
-    inner_count += 1  
+      inner_count += 1  
     end
   
   
-  min_temp_results.puts(min_temp)  
-  count += 1   
+    min_temp_results.push(min_temp)  
+    count += 1   
   end
   
   min_temp_results
